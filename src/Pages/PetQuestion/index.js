@@ -1,14 +1,16 @@
 import React, { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { CardOption } from '../../Components'
 import { QUESTIONS } from '../../Constants'
 import './styles.scss'
 
 export function PetQuestion() {
   const [questionIndex, setQuestionIndex] = useState(0)
+  const navigate = useNavigate()
 
   function onSubmit() {
     if (questionIndex === QUESTIONS.length - 1) {
-      console.log('batata')
+      navigate('/pet-name-picker/result')
     } else {
       setQuestionIndex(questionIndex + 1)
     }
