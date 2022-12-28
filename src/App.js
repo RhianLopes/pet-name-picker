@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
-import { PetQuestion } from './pages'
+import { PetQuestion } from './Pages'
 import './App.css'
 
 function App() {
