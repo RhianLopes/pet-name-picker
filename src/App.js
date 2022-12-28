@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
 import { PetQuestion } from './pages'
 import './App.css'
 
@@ -7,11 +7,12 @@ function App() {
     <div className='App'>
       <Router>
         <Routes>
-          <Route exact path='/' element={<PetQuestion/>}/>
+          <Route exact path='/pet-name-picker' element={<PetQuestion />} />
+          <Route path='*' element={<Navigate to='/pet-name-picker' replace />} />
         </Routes>
       </Router>
     </div>
   )
 }
 
-export default App;
+export default App
