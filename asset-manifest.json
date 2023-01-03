@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pet-name-picker/static/css/main.12af3dbb.css",
+    "main.js": "/pet-name-picker/static/js/main.1ac2d372.js",
+    "static/js/787.54b1265a.chunk.js": "/pet-name-picker/static/js/787.54b1265a.chunk.js",
+    "index.html": "/pet-name-picker/index.html",
+    "main.12af3dbb.css.map": "/pet-name-picker/static/css/main.12af3dbb.css.map",
+    "main.1ac2d372.js.map": "/pet-name-picker/static/js/main.1ac2d372.js.map",
+    "787.54b1265a.chunk.js.map": "/pet-name-picker/static/js/787.54b1265a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12af3dbb.css",
+    "static/js/main.1ac2d372.js"
+  ]
+}
