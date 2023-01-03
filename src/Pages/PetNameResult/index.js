@@ -12,7 +12,7 @@ export function PetNameResult() {
   const [filters] = useState(location.state.filters)
   
   useEffect(() => {
-    let prompt = '10 Sugestões de nomes brasileiros para animal de estimação '
+    let prompt = '10 Sugestões de nomes brasileiros para animal de estimação'
     filters.map((item) => {
       prompt = prompt.concat(' ').concat(item)
     })
