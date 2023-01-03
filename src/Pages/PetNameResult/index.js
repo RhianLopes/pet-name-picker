@@ -25,7 +25,7 @@ export function PetNameResult() {
           },
           { 
             headers: {
-                Authorization: "Bearer " + process.env.OPENAI_APIKEY
+                Authorization: "Bearer " + process.env.REACT_APP_OPENAI_APIKEY
             },
           }
         )
