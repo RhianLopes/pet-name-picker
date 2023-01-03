@@ -19,5 +19,5 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: Deploy react app to github pages
       uses: tanwanimohit/deploy-react-to-ghpages@v1.0.1
-      with:
+      env:
         REACT_APP_OPENAI_APIKEY: ${{ secrets.REACT_APP_OPENAI_APIKEY }}
