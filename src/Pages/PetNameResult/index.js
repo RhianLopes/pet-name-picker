@@ -25,7 +25,7 @@ export function PetNameResult() {
           },
           { 
             headers: {
-                // Authorization: "Bearer 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"
+                Authorization: process.env.OPENAI_APIKEY
             },
           }
         )
